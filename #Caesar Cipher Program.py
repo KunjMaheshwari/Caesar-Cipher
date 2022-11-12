@@ -1,7 +1,7 @@
 alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 
-direction = input("Type 'encode' to encrypt or 'decode' to decrypt: \n")     #string
-value = input("Enter the letters:  \n").lower()                                 #string
+direction = input("Type 'encode' to encrypt or 'decode' to decrypt: \n")     
+value = input("Enter the letters:  \n").lower()                                 
 shift = int(input("Enter the shift number:  \n"))    
 
 def caesar(direction, value, shift):
@@ -31,23 +31,3 @@ def caesar(direction, value, shift):
             print("Enter the correct direction")                     
 
 caesar(direction=direction, value=value, shift=shift)
-
-    
-        
-  
-    
-
-
-
-
-
-    
-
-    
-    
-    
-
-    
-
-
-
